@@ -1,0 +1,14 @@
+{
+  "name": "cyfe",
+  "version": "1.0.0",
+  "description": "Simple wrapper to talk with the Cyfe API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/WeeJeWel/node-cyfe",
+  "author": "Emile Nijssen",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

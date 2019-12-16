@@ -14,10 +14,11 @@ First, add a Push API widget (_Add Widget > Custom > Push API_) and find your ID
 
 ```javascript
 const Cyfe = require('cyfe');
-const cyfe = new Cyfe();
+const cyfe = new Cyfe({
+   id: '<your widget key>', // e.g. 5df77205376f07353893125957962
+});
 
 cyfe.pushIncrement({
-  id: '<your widget key>', // e.g. 5df77205376f07353893125957962
   key: 'Activations', // Can be any key. This will show up in the chart.
 }).then(() => {
   console.log('Incremented by 1');
